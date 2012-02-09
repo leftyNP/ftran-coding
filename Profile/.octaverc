@@ -1,0 +1,9 @@
+# This runs for each instance Octave is called
+
+# This command forces plots to use x11 instead of aquaterm
+setenv ("GNUTERM", "x11")
+# To see all options, from terminal, type 'gnuplot'
+# Once running gnuplot, type 'set term' to see plotting options
+
+# This command changes the starting folder to something more useful
+cd /Users/leftynm/Desktop/Research/ftran/Mixed-Cells
